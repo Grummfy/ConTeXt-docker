@@ -8,7 +8,7 @@ More information on commands you can run: http://www.pragma-ade.com/general/manu
 Compile your ConTeXt document:
 
 ```
-docker run -ti --rm -v ${PWD}:/my-doc -w /my-doc grummfy/ConTeXt-docker context your-doc.tex
+docker run -ti --rm -v ${PWD}:/my-doc -w /my-doc grummfy/context-docker context your-doc.tex
 ```
 
 if `your-doc.tex` is inside the current directory (the current directory is mounted in the docker through ${PWD)}
